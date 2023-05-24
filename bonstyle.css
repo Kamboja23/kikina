@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 151;
+    height: 101;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.headerflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.navlink {
+    font-family: "ubuntu";
+    font-style:
+        normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #957554;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+.pirvelisurati {width: 100%; height: 100%; object-fit: cover;border-radius: 10px;}
+.newcard {display: grid;
+    grid-template-columns: 50% 50%; 
+    width: 100%;
+    height:100%;
+    grid-template-rows: 500px;
+    gap: 60px;
+    margin-bottom: 50px;
+    }
+    .newscardcontent {display: flex; flex-direction: column; 
+        justify-content:flex-start; align-items:baseline;gap: 44px;}
+
+    .newscardcontent h3 {  display: flex;
+        justify-content: center;
+        margin-bottom: 47px;
+        font-family: Ubuntu;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #957554;}
+        p {font-family: Ubuntu;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left;
+            }
+.meoresatauri {display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #957554;}
+
+    .button {
+        background: linear-gradient(0deg, #DFAA5B, #DFAA5B);
+        font-family: "ubuntu";
+        font-size: 24px;
+        color: #FFFFFF;
+        box-sizing: border-box;
+        height: 76px;
+        width: 376px;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        border-radius: 10px;
+        text-decoration: none;}
+ .mesamesurati 
+ {width: 100%;
+     height: 100%;
+      object-fit: cover;
+      border-radius: 10px}
+      .newcard:nth-child(2n) img {order: 1;}
+      .newcard:nth-child(2n) .newscardcontent {align-items:end ;}
+      .newcard:nth-child(2n) .newscardcontent p {text-align: right;}
+      .suratebi 
+      {display: grid; 
+        grid-template-columns: repeat(5,1fr) ; 
+        grid-template-rows: repeat(2, 500px) ;
+        gap: 30px; 
+        margin-bottom: 104px;}
+        
+
+    .suratebi img {width:100%; height: 100%; border-radius: 10px; object-fit: cover; }
+
+    .suratebi img:first-child 
+    {grid-area: 1/1/2/4;}
+    .suratebi img:nth-child(2) 
+    {grid-area: 1/4/2/6 ;}
+    .suratebi img:nth-child(3)
+     {grid-area: 2/1/3/3;}
+    .suratebi img:nth-child(4)
+     {grid-area: 2/3/3/6;}
+
+     footer { background-color:  #111111;
+        padding: 56px 0 159px; }
+        .footercontent {display: flex;  justify-content: space-between; padding-left: 20px;}
+        .footernavigation {display: flex; flex-direction:column;gap: 28px;}
+        
+        .footernavlink {font-weight: 400; text-decoration: none; color: #FFFFFF;}
+        .footertext {color: #FFFFFF;}
+        .footertext a {display: block; color: #FFFFFF;font-size: 24px;}
